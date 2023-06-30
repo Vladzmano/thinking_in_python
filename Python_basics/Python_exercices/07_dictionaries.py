@@ -51,10 +51,15 @@ my_list_dict = ["Nombre", 1, "Piso"]
 
 my_new_dict = dict.fromkeys((my_list_dict))
 print(my_new_dict)
+
 my_list_dict = dict.fromkeys((my_list_dict))
 print(my_list_dict)
 
 
 my_list_dict = dict.fromkeys((my_dict)) #creando un diccionario nuevo copiando las keys, copiando las claves de un dict existente
+print(my_list_dict)
+
+
+my_list_dict = dict.fromkeys(my_dict,("Vlad","Mano"))
 print(my_list_dict)
 

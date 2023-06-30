@@ -12,8 +12,8 @@ print(2 ** 3 + 3 - 7 / 1 // 4)
 # concatenar cadenas de texto
 
 """
-str = transfor into string
-int = transforn into integer
+str = transform into string
+int = transform into integer
 """
 
 print("Hola " + "Python " + "Que tal?")
