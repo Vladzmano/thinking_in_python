@@ -63,3 +63,8 @@ print(my_list_dict)
 my_list_dict = dict.fromkeys(my_dict,("Vlad","Mano"))
 print(my_list_dict)
 
+print(my_new_dict.values())
+print(list(dict.fromkeys(list(my_list_dict.values())).keys()))
+print(tuple(my_new_dict))
+print(set(my_new_dict))
+
