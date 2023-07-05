@@ -1,6 +1,6 @@
 ### Loops - cycles ### iterar es repetir algo, pasar por el codigo varias veces
 
-## While ##
+## While ## Paravra reservada
 
 my_condition = 0
 
@@ -23,7 +23,7 @@ print("La ejecucion continua")
 
 
 
-## For ## nos sirve para iterar con un listado de elementos- esta atado a un nmero finito de datos.
+## For ## (Palavra reservada) nos sirve para iterar con un listado de elementos- esta atado a un nmero finito de datos.
 
 my_list = [35, 24, 18 , 60, 17, 30, 30]
 
