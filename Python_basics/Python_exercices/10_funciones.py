@@ -46,9 +46,9 @@ print_name_with_default("Vlad", "Mano", "Vladzmano")
 
 # numero de parametros dinamico
 
-def print_upper_texts(*texts):
+def print_upper_texts(*texts): # muchas veces se interpresa como tipos de datos diferentes, en ste caso como uma tupla
     for text in texts:
         print(text.upper())
-        
+
 print_upper_texts("Vlad", "Mano")
 print_upper_texts("Vlad", "Mano", "Vladzmano")
