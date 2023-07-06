@@ -1,3 +1,4 @@
-### comprencion de listas - list comprehension ###
+### comprecion de listas - list comprehension ###
 
 
+my_list = ()
