@@ -1,6 +1,6 @@
 ### Tipos De ficheros - File handling ###
 
-## .txt file
+## .txt file ##
 
 ## Python_101 is the roor path
 ## using "r","w+","a", "rb",  we can read and write the file
@@ -26,4 +26,21 @@ txt_file.close()
 
 #os.remove("Python_101/python_intermediate/06.1_my_file.txt")
 
-## .jason file
+
+
+## .jason file ## Estos trabajan con elementos clave valor.
+
+import json
+
+json.dump
+
+json_file = open("Python_101/python_intermediate/06.1_my_file.json", "w+")
+
+json_test ={
+    "name" : "Vlad", 
+    "surname" : "Mano", 
+    "age" : 34,
+    "Language" : "Python",
+    "website": "https://mysite.com"}
+
+json.dump(json_test, json_file, indent= 4)
