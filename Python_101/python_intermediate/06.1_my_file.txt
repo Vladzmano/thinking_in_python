@@ -1,0 +1,6 @@
+File Handling 101
+Hello,
+Please use this file wisely.
+Thank you.
+PS: Please bring water XOXOX
+Y Swift
