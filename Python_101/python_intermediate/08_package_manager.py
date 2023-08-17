@@ -1,1 +1,1 @@
-### dpendency - Manejar dependencias###
+### Python package manager pip - Manejar dependencias  pip ###
